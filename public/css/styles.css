@@ -102,3 +102,18 @@ header {
   font-weight: 100;
   font-size: 16px;
 }
+
+.album_list {
+  margin: 20px;
+}
+
+.album_list:after {
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.album_list > img {
+  float: left;
+  width: 50%;
+}
